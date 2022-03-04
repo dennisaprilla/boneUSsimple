@@ -829,7 +829,7 @@ function main_button_save_Callback(hObject, eventdata, handles)
 % obtain variables that we need to perform registration simulation
 bmode_simulation.portion      = handles.bmode_portion;
 bmode_simulation.pointcloud   = handles.bmode_pointcloud.US_simulation;
-bmode_simulation.plane        = handles.bmode_plane.slice;
+bmode_simulation.plane        = handles.bmode_plane;
 
 plane_transformation.bmode_tz    = get(handles.bmode_slider_tz, 'Value');
 plane_transformation.bmode_rx    = get(handles.bmode_slider_rx, 'Value');
