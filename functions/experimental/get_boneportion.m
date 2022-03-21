@@ -11,7 +11,7 @@ lower_z = maxmin(1,3) - size(3)*upperlower_bound(2);
 boneportion_pointcloud = bone( (bone(:,3) <= upper_z) & (bone(:,3) >= lower_z), :);
 
 % testing
-boneportion_pointcloud = boneportion_pointcloud( (boneportion_pointcloud(:,2) <= -0.005), :);
+% boneportion_pointcloud = boneportion_pointcloud( (boneportion_pointcloud(:,2) <= -0.005), :);
 
 end
 
